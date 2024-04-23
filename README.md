@@ -1,12 +1,10 @@
-# postprocessed_geez_asr
+# Semantically Corrected Amharic Automatic Speech Recognition
+## This repository is still in the process of being organized.
 
-This repository contains the Test Dataset, reference to models, and code to reproduce the result of Amharic(as mentioned on the paper "Semantically Corrected Amharic Automatic
-Speech Recognition"), and other languages using the Ge'ez script.
+This repository houses the Test Dataset, references to models, and code necessary to replicate the results presented in the paper '[Here](https://arxiv.org/abs/2404.13362)'.
 
-# These scripts are used by the paper "Semantically Corrected Amharic Automatic Speech Recognition"
-
-- This repository includes the following scripts and data.
-    1. Scripts to prepare and finetune the Wav2Vec facebook's Wav2Vec model.
-    2. Scripts used to train prepare and train a Seq2Seq models as T5 from scratch with different token sizes.
-    3. Semantically corrected Amharic sentences dataset we used to evaluate our output performance.
-    4. Script to demo about it's application.
+# Content
+1. Scripts for preparing and fine-tuning Facebook's Wav2Vec model.
+2. Scripts for preparing and training Seq2Seq models, such as T5, from scratch with various token sizes.
+3. Dataset of semantically corrected Amharic sentences used for evaluating output performance.
+4. Demonstration script showcasing its practical application.
